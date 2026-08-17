@@ -304,8 +304,22 @@
   #teximac .hero{ background:linear-gradient(135deg,var(--teximac-green),#003c3c); }
   .route-list.tx li{ border-left:6px solid var(--teximac-green); }
   .fare.tx{ color:var(--teximac-green); }
-  .perk.tx{ background:var(--teximac-green); }
-  .perk.tx2{ background:var(--teximac-green-light); }
+  .book-banner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:36px;
+    padding:22px 28px;
+    border-radius:14px;
+    color:white;
+  }
+  .book-title{ font-size:1.15rem; font-weight:800; }
+  .book-sub{ font-size:0.85rem; opacity:0.9; }
+  .book-phone{ font-size:1.5rem; font-weight:800; letter-spacing:0.5px; }
+  .hawaimin-banner{ background:linear-gradient(135deg,var(--hawaimin-blue),var(--hawaimin-green)); }
+  .teximac-banner{ background:linear-gradient(135deg,var(--teximac-green),#003c3c); }
   .swatch-row{ display:flex; align-items:center; gap:12px; margin-top:22px; }
   .swatch{ width:46px; height:46px; border-radius:8px; background:var(--teximac-green); box-shadow:0 2px 6px rgba(0,0,0,0.2);}
   .swatch-info{ font-family:'Courier New',monospace; font-size:0.85rem; opacity:0.85; }
@@ -433,6 +447,14 @@
       <span class="perk g">Window Seat Guarantee</span>
       <span class="perk b">Extra Snacks</span>
     </div>
+
+    <div class="book-banner hawaimin-banner">
+      <div class="book-text">
+        <div class="book-title">Ready to fly Hawaimin?</div>
+        <div class="book-sub">Call to book your flight</div>
+      </div>
+      <div class="book-phone">(425) 600-9957</div>
+    </div>
   </section>
 </div>
 
@@ -458,6 +480,14 @@
       <span class="perk tx">Extra Legroom</span>
       <span class="perk tx2">Free Trail Mix</span>
       <span class="perk tx">Reclining Seats</span>
+    </div>
+
+    <div class="book-banner teximac-banner">
+      <div class="book-text">
+        <div class="book-title">Ready to fly Teximac?</div>
+        <div class="book-sub">Call to book your flight</div>
+      </div>
+      <div class="book-phone">(425) 600-9957</div>
     </div>
   </section>
 </div>
