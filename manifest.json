@@ -1,7 +1,7 @@
 {
   "name": "Mamin",
   "short_name": "Mamin",
-  "description": "Mamin Company",
+  "description": "Mamin",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#DCEBFB",
